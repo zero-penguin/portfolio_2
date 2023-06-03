@@ -72,6 +72,7 @@ img {
   width: 50vw;
   height: 50vh;
   overflow: hidden;
+
 }
 
 img > video {
@@ -85,7 +86,7 @@ img > video {
 .video-js {
   position: relative;
   width: 60vw;
-  height: 73vh;
+  height: auto;
   overflow: hidden;
   top: 50%;
   left: 20%;
@@ -135,8 +136,8 @@ a {
 .container >.content {
   background-color: white;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .container >.section {
