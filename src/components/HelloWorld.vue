@@ -24,10 +24,11 @@
           <p>大学ではアートサークルに入っている。</p>
           <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけ</p>
         </div>
-        <div class="section">
+        <div class="contact">
           <h2>連絡先</h2>
-          <p>TEL 090-6859-0853</p>
-          <p>mail arakaki1060@icloud.com</p>
+          <a href="https://twitter.com/ArakakiTky">
+            <img src="../assets/images/logo/twitterのフリーアイコン素材.png" alt="Twitter">
+          </a>
         </div>
       </div>
     </div>
@@ -67,7 +68,7 @@ export default ({
   height: 300px;
 }
 
-img {
+.section > img {
   position: relative;
   width: 50vw;
   height: 50vh;
@@ -83,6 +84,7 @@ img > video {
   min-width: 100%;
   min-height: 100%;
 }
+
 .video-js {
   position: relative;
   width: 60vw;

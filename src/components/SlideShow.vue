@@ -8,6 +8,8 @@
     :scrollbar="{ draggable: true }"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
+    :autoplay="{ delay: 3000 }"
+    :loop="true" 
   >
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
@@ -33,8 +35,6 @@
         <img src="../assets/images/work/godziraApp.png">
       </a>
     </swiper-slide>
-    <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
-    ...
   </swiper>
 </template>
 <script>
@@ -43,6 +43,10 @@
 
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
+  import SwiperCore, { Autoplay } from 'swiper';
+  import 'swiper/swiper-bundle.css';
+
+  SwiperCore.use([Autoplay]);
 
   // Import Swiper styles
   import 'swiper/css';
