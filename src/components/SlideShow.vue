@@ -8,7 +8,7 @@
     :scrollbar="{ draggable: true }"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
-    :autoplay="{ delay: 3000 }"
+    :autoplay="{ delay: 2500, disableOnInteraction: false }"
     :loop="true" 
   >
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
