@@ -73,14 +73,6 @@ export default ({
   width: 50vw;
   height: 50vh;
   overflow: hidden;
-
-}
-
-img > video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
 }
