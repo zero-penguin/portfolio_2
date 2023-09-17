@@ -14,15 +14,15 @@
         </div>
         <div class="section">
           <h2>スキル</h2>
-          <p>python 1年以上</p>
-          <p>html/css/javascript 学習中</p>
-          <p>フレームワークはvue3,Django,Flaskを学習中</p>
+          <p>python 1年以上　DjangoとFlaskのフレームワークでwebアプリ作成経験あり</p>
+          <p>html/css/javascript 半年以上　Vue.jsでの開発経験あり</p>
+          <p>AWS,Render,Netlify,Github,　様々な開発環境でデプロイを経験</p>
         </div>
         <div class="section">
           <h2>いろいろ</h2>
-          <p>中学からずっとバスケットボールをしている。</p>
-          <p>大学ではアートサークルに入っている。</p>
-          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけ</p>
+          <p>中学からずっとバスケットボールをしています</p>
+          <p>大学では経済学部で学び、ゼミでは深層学習について学んでいます。</p>
+          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけでもあります!!</p>
         </div>
         <div class="contact">
           <h2>連絡先</h2>
@@ -34,9 +34,8 @@
     </div>
     <div class="open"></div>
     <div id="skill">
-    <h2>back</h2>
+    <h2>作ったサイト</h2>
     <SlideShow></SlideShow>
-    <h2>front</h2>
     
     </div>
     <div class="open"></div>
@@ -55,7 +54,7 @@ import SlideShow from '../components/SlideShow.vue'
 export default ({
   name: "HelloWorld",
   components: {
-    SlideShow
+    SlideShow,
   }
 })
 </script>

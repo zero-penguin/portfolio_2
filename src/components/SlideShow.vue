@@ -1,8 +1,8 @@
 <template>
   <swiper
     :modules="modules"
-    :slides-per-view="3"
-    :space-between="50"
+    :slides-per-view="5"
+    :space-between="0"
     navigation
     :pagination="{ clickable: true }"
     :scrollbar="{ draggable: true }"
@@ -19,20 +19,14 @@
     </swiper-slide>
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
-      <a href="https://okinawa-citys.onrender.com/signup">
-        <img src="../assets/images/work/okinawasityApp.png">
+      <a href="http://zeropenguin.pythonanywhere.com/">
+        <img src="../assets/images/work/studymenberApp.png">
       </a>
     </swiper-slide>
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
-      <a href="https://zero-penguin.github.io/polka2/">
-        <img src="../assets/images/work/funsite.png">
-      </a>
-    </swiper-slide>
-    <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
-    <swiper-slide>
-      <a href="https://zero-penguin.github.io/vue-todolist/">
-        <img src="../assets/images/work/godziraApp.png">
+      <a href="https://originalsite-flask.onrender.com/">
+        <img src="../assets/images/work/dreamdialog.png">
       </a>
     </swiper-slide>
   </swiper>
