@@ -18,6 +18,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
+  build: {
+    babel: {
+      babelrc: false,
+      compact: false
+    }
+  },
   components: {
     HelloWorld,
   }
