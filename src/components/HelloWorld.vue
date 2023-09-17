@@ -39,11 +39,11 @@
     
     </div>
     <div class="open"></div>
-    <p>
+    <!-- <p>
       <video class="video-js" loop muted autoplay playsinline>
         <source src="../assets/video/seeyou.mp4" type="video/mp4">
       </video>
-    </p>
+    </p> -->
     <div class="open"></div>
   </div>
 </template>
