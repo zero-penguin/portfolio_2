@@ -22,7 +22,7 @@
           <h2>いろいろ</h2>
           <p>中学からずっとバスケットボールをしています</p>
           <p>大学では経済学部で学び、ゼミでは深層学習について学んでいます。</p>
-          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけでもあります!!</p>
+          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけです!!</p>
         </div>
         <div class="contact">
           <h2>連絡先</h2>
@@ -39,11 +39,11 @@
     
     </div>
     <div class="open"></div>
-    <!-- <p>
+    <p>
       <video class="video-js" loop muted autoplay playsinline>
         <source src="../assets/video/seeyou.mp4" type="video/mp4">
       </video>
-    </p> -->
+    </p>
     <div class="open"></div>
   </div>
 </template>
@@ -53,6 +53,12 @@ import SlideShow from '../components/SlideShow.vue'
 
 export default ({
   name: "HelloWorld",
+  build: {
+    babel: {
+      compact: true,
+    },
+  },
+  
   components: {
     SlideShow,
   }
