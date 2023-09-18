@@ -14,9 +14,9 @@
         </div>
         <div class="section">
           <h2>スキル</h2>
-          <p>python 1年以上　DjangoとFlaskのフレームワークでwebアプリ作成経験あり</p>
-          <p>html/css/javascript 半年以上　Vue.jsでの開発経験あり</p>
-          <p>AWS,Render,Netlify,Github,　様々な開発環境でデプロイを経験</p>
+          <p>python 1年以上,DjangoとFlaskのフレームワークでwebアプリ作成経験あり</p>
+          <p>html/css/javascript 半年以上,Vue.jsでの開発経験あり</p>
+          <p>AWS,Render,Netlify,Github,様々な開発環境でデプロイを経験</p>
         </div>
         <div class="section">
           <h2>いろいろ</h2>
@@ -58,7 +58,7 @@ export default ({
       compact: true,
     },
   },
-  
+
   components: {
     SlideShow,
   }
