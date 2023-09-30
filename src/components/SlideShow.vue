@@ -20,13 +20,13 @@
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
       <a href="http://zeropenguin.pythonanywhere.com/">
-        <img src="../assets/images/work/studymenberApp.png">
+        <img src="../assets/images/work/studymenberApp2.png">
       </a>
     </swiper-slide>
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
       <a href="https://originalsite-flask.onrender.com/">
-        <img src="../assets/images/work/dreamdialog.png">
+        <img src="../assets/images/work/dreamdialog2.png">
       </a>
     </swiper-slide>
   </swiper>
