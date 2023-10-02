@@ -25,7 +25,7 @@
           <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけです!!</p>
         </div>
         <div class="contact">
-          <h2>連絡先</h2>
+          <h2>ほぼ動いてないSNS</h2>
           <a href="https://twitter.com/ArakakiTky">
             <img src="../assets/images/logo/twitterのフリーアイコン素材.png" alt="Twitter">
           </a>

@@ -1,0 +1,14 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+
+@media (max-width: 768px) {
+  img {
+    width: 100%; /* モバイルデバイスの場合、画像を親要素の幅いっぱいに表示 */
+    height: auto; /* 高さも自動調整されます */
+  }
+}

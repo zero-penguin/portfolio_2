@@ -51,6 +51,12 @@ h2 {
   transform: translateX(0%) translateY(0%);
   margin: auto;
 }
+
+img {
+  max-width: 100%; /* 画像の幅が親要素の幅に合わせます */
+  height: auto; /* 高さは自動調整されます */
+}
+
 .content {
   transform: translateX(0%) translateY(0%);
 }

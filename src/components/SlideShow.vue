@@ -1,8 +1,8 @@
 <template>
   <swiper
     :modules="modules"
-    :slides-per-view="5"
-    :space-between="0"
+    :slides-per-view="3"
+    :space-between="100"
     navigation
     :pagination="{ clickable: true }"
     :scrollbar="{ draggable: true }"
@@ -11,7 +11,6 @@
     :autoplay="{ delay: 2500, disableOnInteraction: false }"
     :loop="true" 
   >
-    <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
       <a href="https://zero-penguin.github.io/artcircle2/">
         <img src="../assets/images/work/artcicle_hp.png">
@@ -29,6 +28,7 @@
         <img src="../assets/images/work/dreamdialog2.png">
       </a>
     </swiper-slide>
+    <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
   </swiper>
 </template>
 <script>
