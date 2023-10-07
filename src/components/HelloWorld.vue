@@ -34,7 +34,7 @@
     </div>
     <div class="open"></div>
     <div id="skill">
-    <h2>作ったサイト</h2>
+    <h2>作ったモノ</h2>
     <SlideShow></SlideShow>
     
     </div>
