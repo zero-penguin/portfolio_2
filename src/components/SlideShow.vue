@@ -12,7 +12,7 @@
     :loop="true" 
   >
     <swiper-slide>
-      <a href="http://18.179.224.32/">
+      <a href="http://ryudai-artclub.com/">
         <div class="slide-description"><h2>琉大アートクラブ HP</h2><br>所属するサークルの活動をPRする目的で作成しました。awslightsail上にデプロイしたものです。wordpressで作成しました。</div>
         <img src="../assets/images/work/artcicle_hp.png">
       </a>
