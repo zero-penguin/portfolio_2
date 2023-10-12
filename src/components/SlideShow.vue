@@ -19,7 +19,7 @@
     </swiper-slide>
     <swiper-slide><img src="../assets/images/logo/barbershop.png"></swiper-slide>
     <swiper-slide>
-      <a href="http://zeropenguin.pythonanywhere.com/">
+      <a href="http://zeropenguin.pythonanywhere.com/post">
         <div class="slide-description"><h2>生徒管理アプリ</h2>所属するバイト先のスタッフに快適な生徒管理を行ってもらうために作成しました。Pythonanywhereにデプロイしたものです。Djangoで作成しました。</div>
         <img src="../assets/images/work/studymenberApp2.png">
       </a>
