@@ -14,37 +14,37 @@
         </div>
         <div class="section">
           <h2>スキル</h2>
-          <p>python 1年以上</p>
-          <p>html/css/javascript 学習中</p>
-          <p>フレームワークはvue3,Django,Flaskを学習中</p>
+          <p>python 1年以上,DjangoとFlaskのフレームワークでwebアプリ作成経験あり</p>
+          <p>html/css/javascript 半年以上,Vue.jsでの開発経験あり</p>
+          <p>AWS,Render,Netlify,Github,様々な開発環境でデプロイを経験</p>
         </div>
         <div class="section">
           <h2>いろいろ</h2>
-          <p>中学からずっとバスケットボールをしている。</p>
-          <p>大学ではアートサークルに入っている。</p>
-          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけ</p>
+          <p>中学からずっとバスケットボールをしています</p>
+          <p>大学では経済学部で学び、ゼミでは深層学習について学んでいます。</p>
+          <p>ホロライブというアイドルが好きで、IT業界に進んだきっかけです!!</p>
         </div>
-        <div class="section">
-          <h2>連絡先</h2>
-          <p>TEL 090-6859-0853</p>
-          <p>mail arakaki1060@icloud.com</p>
+        <div class="contact">
+          <h2>ほぼ動いてないSNS</h2>
+          <a href="https://twitter.com/ArakakiTky">
+            <img src="../assets/images/logo/twitterのフリーアイコン素材.png" alt="Twitter">
+          </a>
         </div>
       </div>
     </div>
     <div class="open"></div>
     <div id="skill">
-    <h2>back</h2>
+    <h2>作ったモノ</h2>
     <SlideShow></SlideShow>
-    <h2>front</h2>
     
     </div>
-    <div class="open"></div>
+    <!-- <div class="open"></div>
     <p>
       <video class="video-js" loop muted autoplay playsinline>
         <source src="../assets/video/seeyou.mp4" type="video/mp4">
       </video>
     </p>
-    <div class="open"></div>
+    <div class="open"></div> -->
   </div>
 </template>
 
@@ -53,8 +53,14 @@ import SlideShow from '../components/SlideShow.vue'
 
 export default ({
   name: "HelloWorld",
+  build: {
+    babel: {
+      compact: true,
+    },
+  },
+
   components: {
-    SlideShow
+    SlideShow,
   }
 })
 </script>
@@ -67,22 +73,15 @@ export default ({
   height: 300px;
 }
 
-img {
+.section > img {
   position: relative;
   width: 50vw;
   height: 50vh;
   overflow: hidden;
-
-}
-
-img > video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
 }
+
 .video-js {
   position: relative;
   width: 60vw;

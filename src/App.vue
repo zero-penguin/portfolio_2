@@ -1,14 +1,15 @@
 <template>
   <div class="logo">
-    <img alt="Vue logo" src="./assets/images/logo/logo_2.gif">
+    <img src="./assets/images/logo/logo_2.gif">
   </div>
-  <HelloWorld></HelloWorld>
-
+  <div class="content">
+    <HelloWorld></HelloWorld>
+  </div>
   <footer>
-        <div class="container">
-            <p>&copy; 2023 this portfolio. All rights reserved. Takaya Arakaki</p>
-        </div>
-    </footer>
+    <div class="container">
+        <p>&copy; 2023 this portfolio. All rights reserved. Takaya Arakaki</p>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -17,6 +18,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
+  build: {
+    babel: {
+      babelrc: false,
+      compact: false
+    }
+  },
   components: {
     HelloWorld,
   }
@@ -31,13 +38,28 @@ export default {
   text-align: center;
   color: rgb(183, 128, 32);
 }
+@media screen and (max-width:480px) {
+ 
+  #app {
+   width: 100%;
+  }
+}
 h2 {
   color:rgb(248, 187, 56)
 }
-.logo {
+.logo > img{
   transform: translateX(0%) translateY(0%);
+  margin: auto;
 }
 
+img {
+  max-width: 100%; /* 画像の幅が親要素の幅に合わせます */
+  height: auto; /* 高さは自動調整されます */
+}
+
+.content {
+  transform: translateX(0%) translateY(0%);
+}
 footer {
     background-color: #f5f5f5;
     padding: 20px 0;
